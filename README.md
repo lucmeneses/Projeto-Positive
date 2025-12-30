@@ -20,5 +20,7 @@
 
 <h2>Aprendizados e Desafios desse projeto</h2>
   - Formar o site do 0 a partir de um projeto no figma.
+  <br>
   - Fazer a colocação de cada link, img e texto no lugar certo.
+  <br>
   - Fazer a responsividade do site de desktop para smartphone.
