@@ -1,0 +1,157 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0px 87px 42px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border-width: 1px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFFFFF;
+
+}
+
+.img-logo {
+    width: 595.18px;
+    height: 500px;
+    top: 246px;
+    left: 121px;
+    margin-left: 121px;
+    margin-top: 163px;
+    display: inline-block;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 84.82px;
+}
+
+h1 {
+    width: 493px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    letter-spacing: 0.6px;
+    
+
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+
+}
+
+.link-section {   
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    cursor: pointer;
+    color: #6FBF44;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 600px) {
+    .link-header {
+        display: none;
+    }
+
+    .main {
+        margin: 0;
+        padding: 0;
+    }
+
+    .img-logo {
+        display: inline-block;
+        position: absolute;
+        max-width: 100%;
+        height: auto;
+        margin-left: -121px;
+        margin-top: 253px;
+
+    }
+
+    section {
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1 {
+        width: 278px;
+        height: 60px;
+        font-weight: 700;
+        font-size: 30px;;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+        text-align: center;
+        margin: 124px 55px 0 55px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        width: 304px;
+        height: 165px;
+        margin: 29px 43px 15px 43px;
+    }
+
+    .link-section {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 1px;
+        margin-left: 139px;
+    }
+
+    header {
+        margin: 0;
+        padding: 0;
+    }
+
+    .button-header {
+        width: 91px;
+        height: 31px;
+        border-radius: 6px;
+        border-width: 1px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 275px;
+        margin-top: 15px;
+    }
+
+   
+
+}
